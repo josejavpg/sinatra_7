@@ -9,7 +9,7 @@ post '/respuesta' do
 	@mensaje= params[:txtMensaje]
 	if !@mensaje.empty? 
 		if @mensaje == @mensaje.upcase
-			@mensaje = "Ahhh si, #{@mensaje.downcase}!"
+			@mensaje = "Ahhh si, manzanas!"
 		else
 			@mensaje = "Habla más duro mijito"
 		end
